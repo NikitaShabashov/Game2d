@@ -1,0 +1,70 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+<body>
+<canvas id="canvasId" width='1340' height='640' style='border:1px solid blue;'></canvas>
+<div id="uiElements">
+    <div id="mainMenu">
+        <a class="button orange" onclick="Window.SuperManager.loadGame(1);"
+           style="margin-left: 20px;margin-right: 140px; margin-top: 15px">1</a>
+        <a class="button orange" onclick="Window.SuperManager.loadGame(2);">2</a>
+        <a class="button orange" onclick="SuperManager.openRecordMenu(1);"
+           style="margin-top: 25px; margin-right: 50px; ">RECORDS</a>
+        <a class="button orange" onclick="SuperManager.openRecordMenu(2);" style="margin-top: 25px;">RECORDS</a>
+        <a class="button orange" onclick="Window.SuperManager.loadGame(3);"
+           style="margin-left: 20px; margin-right: 140px; margin-top: 45px">3</a>
+        <a class="button orange" onclick="Window.SuperManager.loadGame(4);">4</a>
+        <a class="button orange" onclick="SuperManager.openRecordMenu(3);"
+           style="margin-top: 25px; margin-right: 52px; ">RECORDS</a>
+        <a class="button orange" onclick="SuperManager.openRecordMenu(4);" style="margin-top: 25px;">RECORDS</a>
+    </div>
+    <div id="loseGame">
+        <a class="button orange" id="loseTryAgain"
+           style="margin-left: 15px; margin-top: 25px; padding-right: 33px; padding-left: 33px;">TRY AGAIN</a>
+        <a class="button orange" id="loseRecords" style="margin-left: 15px;margin-right: 140px; margin-top: 25px;">RECORDS</a>
+        <a class="button orange" onclick="Window.SuperManager.loadMenu();"
+           style="margin-left: 15px;margin-right: 140px; margin-top: 25px; padding-right: 42px; padding-left: 42px;">MENU</a>
+    </div>
+    <div id="winGame">
+        <a class="button orange" id="winNextLevel" style="margin-left: 15px; margin-top: 25px;">NEXT LEVEL</a>
+        <a class="button orange" id="winRecords" style="margin-left: 15px;margin-right: 140px; margin-top: 25px;">RECORDS</a>
+        <a class="button orange" onclick="Window.SuperManager.loadMenu();"
+           style="margin-left: 15px;margin-right: 140px; margin-top: 25px; padding-right: 42px; padding-left: 42px;">MENU</a>
+    </div>
+    <div id="recordDiv">
+        <h4 class="recordlvl">Level <a id="levelRecords">1</a></h4>
+        <table>
+            <tr>
+                <td class="placePlayer">№</td>
+                <td class="namePlayer">name</td>
+                <td class="time">time</td>
+            </tr>
+            <tbody id="recordTable">
+
+            </tbody>
+        </table>
+        <a class="button orange" id="closeRecords" onclick="closeRecords();"
+           style="margin-left: 25px;margin-top: 70px;">BACK</a>
+    </div>
+    <div id="nameField" class="inputName">
+        <div class="inputField">
+            <form onsubmit="return false;">
+                <p><b>Enter name:</b></p>
+                <p><input type="text" name="name"></p>
+                <p><input class="button orange" type="button" value="Login" onClick="nameField(this.form)"></p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src=./javascripts/jquery-3.2.1.min.js></script>
+<script src=./javascripts/Settings.js></script>
+<script src=./javascripts/soundManager.js></script>
+<script src=./javascripts/mapManager.js></script>
+<script src=./javascripts/spriteManager.js></script>
+<script src=./javascripts/objectManager.js></script>
+<script src=./javascripts/physicsManager.js></script>
+<script src=./javascripts/gameManager.js></script>
+<script src=./javascripts/superManager.js></script>
+</body>
+</html>

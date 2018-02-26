@@ -1,0 +1,82 @@
+{
+  "imagesPlayer": {
+    "right": [
+      {
+        "img": "./images/player/r0.png"
+      },
+      {
+        "img": "./images/player/r1.png"
+      },
+      {
+        "img": "./images/player/r2.png"
+      },
+      {
+        "img": "./images/player/r3.png"
+      }
+    ],
+    "left": [
+      {
+        "img": "./images/player/l0.png"
+      },
+      {
+        "img": "./images/player/l1.png"
+      },
+      {
+        "img": "./images/player/l2.png"
+      },
+      {
+        "img": "./images/player/l3.png"
+      }
+    ]
+  },
+  "imagesMonster": {
+    "right": [
+      {
+        "img": "./images/monster/r0.png"
+      },
+      {
+        "img": "./images/monster/r1.png"
+      },
+      {
+        "img": "./images/monster/r2.png"
+      },
+      {
+        "img": "./images/monster/r3.png"
+      }
+    ],
+    "left": [
+      {
+        "img": "./images/monster/l0.png"
+      },
+      {
+        "img": "./images/monster/l1.png"
+      },
+      {
+        "img": "./images/monster/l2.png"
+      },
+      {
+        "img": "./images/monster/l3.png"
+      }
+    ]
+  },
+  "imageMoney": [
+    {
+      "img": "./images/money/0.png"
+    },
+    {
+      "img": "./images/money/1.png"
+    },
+    {
+      "img": "./images/money/2.png"
+    },
+    {
+      "img": "./images/money/3.png"
+    },
+    {
+      "img": "./images/money/4.png"
+    },
+    {
+      "img": "./images/money/5.png"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "img":"./images/ground_03.png",
+      "number":1,
+      "rigidbody":true
+    },
+    {
+      "img":"./images/door.png",
+      "number":2,
+      "rigidbody":false
+    },
+    {
+      "img":"./images/door.png",
+      "number":3,
+      "rigidbody":false
+    }
+
+  ]
+}
