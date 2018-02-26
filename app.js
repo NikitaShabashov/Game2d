@@ -9,7 +9,7 @@ server.listen(port, function () {
     console.log('Server listening at port %d', port);
 });
 
-
+/*
 var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
@@ -60,6 +60,6 @@ app.get('/record_set', function (request, response) {
             if (err) throw err;
             response.send("ok");
         });
-});
+});*/
 
 app.use(express.static(path.join(__dirname, 'public')));
